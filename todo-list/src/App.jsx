@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import List from "./Components/List/List";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <h1>TO-DO APP</h1>
+      <List></List>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
